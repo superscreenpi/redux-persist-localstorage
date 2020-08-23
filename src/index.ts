@@ -11,11 +11,11 @@ export function persist(storageKey: string, excludeStateKeys: string[] = []) {
                         delete copy[key];
                     }
                 })
-                localStorage.setItem("TEMP", JSON.stringify(copy));
+                localStorage.setItem(storageKey, JSON.stringify(copy));
             }
 
             // load the initial state from storage
-            const stateData = localStorage.getItem("TEMP");
+            const stateData = localStorage.getItem(storageKey);
             let initialState = preloadedState;
             if (stateData) {
                 // overlay the persisted state data onto

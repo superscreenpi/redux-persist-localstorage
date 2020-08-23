@@ -1,6 +1,6 @@
 {
   "name": "@superscreenpi/redux-persist-localstorage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Persist redux state in window.localStorage",
   "main": "dist/index.js",
   "repository": "git@github.com:superscreenpi/redux-persist-localstorage.git",
