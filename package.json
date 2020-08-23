@@ -1,0 +1,22 @@
+{
+  "name": "@superscreenpi/redux-persist-localstorage",
+  "version": "1.0.0",
+  "description": "Persist redux state in window.localStorage",
+  "main": "dist/index.js",
+  "repository": "git@github.com:superscreenpi/redux-persist-localstorage.git",
+  "author": "Thomas Biesaart <thomas.biesaart@protonmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "redux": "^4.0.5",
+    "typescript": "^4.0.2"
+  },
+  "peerDependencies": {
+    "redux": "^4.0.5"
+  }
+}
